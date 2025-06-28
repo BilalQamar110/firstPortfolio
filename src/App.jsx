@@ -5,6 +5,8 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Education from './components/Education'
+import Skill from './components/Skill';
 
 
 
@@ -16,7 +18,10 @@ export default function App() {
       <Header/>
       
       <About />
+      
       <Projects />
+      <Education />
+      <Skill/>
       <Contact />
       <Footer />
     </div>
